@@ -28,3 +28,65 @@
 body{
     background: var(--Eggshell);
 }
+
+main{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.recipe-layout {
+    background: var(--White);
+    width: 656px;
+    border-radius: 10px;
+}
+
+.recipe-layout h2{
+    color: var(--Dark-Charcoal);
+    font-family: var(--Outfit-sans-serif);
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.recipe-layout h3{
+    color: var(--Nutmeg);
+}
+
+.recipe-layout li:nth-child(1){
+    color: var(--Dark-Raspberry);
+    font-weight: 600;
+    font-size: 20px;
+    list-style: none;
+}
+
+.recipe-layout p{
+    color: var(--Wenge-Brown);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 636px;
+}
+
+.recipe-layout span{
+    color: var(--Wenge-Brown);
+    font-weight: 600;
+}
+
+.omelette-img {
+    height: 300px;
+    width: 38rem;
+    border-radius: 10px;
+    position: relative;
+    top: 6rem;
+    left: 2.5rem;
+    place-content: center;
+}
+.prep-box {
+    background-color: var(--Rose-White);
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    width: 656px;
+}
+.nutri-category {
+}
+.nutri-value {
+}
