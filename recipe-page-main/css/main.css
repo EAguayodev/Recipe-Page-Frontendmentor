@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,4 +19,12 @@
     --Light-Grey: hsl(30, 18%, 87%);
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
+
+    /* Fonts */
+    --Outfit-sans-serif: font-family: "Outfit", sans-serif;
+    --Young-serif: font-family: "Young Serif", serif;;
+}
+
+body{
+    background: var(--Eggshell);
 }
