@@ -176,12 +176,6 @@ tr {
 }
 
 @media(max-width: 768px){
-    main{
-        display: grid;
-        height: 190vh;
-        place-items: center;
-    }
-
     .recipe-layout{
         width: 375px;
     }
