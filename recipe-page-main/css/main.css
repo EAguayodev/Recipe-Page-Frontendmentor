@@ -176,6 +176,10 @@ tr {
 }
 
 @media(max-width: 768px){
+
+    main{
+        height: 221vh;
+    }
     .recipe-layout{
         width: 390px;
     }
@@ -199,6 +203,7 @@ tr {
         height: 300px;
         position: relative;
         top: -11px;
+        object-fit: cover;
         border-radius: 0px;
         left: -30px;
     }
