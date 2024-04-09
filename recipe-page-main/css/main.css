@@ -176,10 +176,10 @@ tr {
 }
 
 @media(max-width: 768px){
-
     main{
         height: 221vh;
     }
+    
     .recipe-layout{
         width: 390px;
     }
