@@ -101,6 +101,10 @@ ol, p {
     width: 5rem;
 }
 
+ol li::marker{
+    font-weight: bold;
+}
+
 .prep-section {
     background-color: var(--Rose-White);
     border-radius: 10px;
@@ -179,7 +183,7 @@ tr {
     main{
         height: 221vh;
     }
-    
+
     .recipe-layout{
         width: 390px;
     }
